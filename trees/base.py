@@ -27,6 +27,34 @@ class Graph(object):
     def __init__(self):
         self.nodes = list()
 
+    def findMax(self):
+
+        return
+
+    def findMin(self):
+        return
+
+
+
+    def findPrev(self):
+        return
+
+
+
+
+    def findNext(self):
+        return
+
+    def floorNode(self):
+        return
+
+    def ceilingNode(self):
+        return
+
+
+
+
+
 
     def preorder(self,node, visitor = printwithspace):
         if node is not None:
