@@ -1,15 +1,18 @@
+# -*- coding:utf-8 -*-
 
 
 
 
 
 
-def quickSort(array): 
+
+
+
+def heapSort(array):
 	"""
 	Running Time
 	------------
 	Average: O(n*log(n))
 	Best: O(n*log(n))
-	Worst: O(n^2)
-	""" 
-	
+	Worst: O(n*log(n))
+	"""
