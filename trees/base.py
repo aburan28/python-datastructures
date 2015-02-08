@@ -2,92 +2,177 @@
 
 
 
+__all__ = ['TreeNode','BaseBinaryTree','BinarySearchTree']
+
+
+class BaseBinaryTree(object):
+
+
+	def __init__(self):
+		
+
+
+
+
+	def insert(self,data):
+	    if self.data:
+	        if data < self.data:
+	            if self.leftChild is None:
+	                self.leftChild = Node(data)
+	            else:
+	                self.leftChild.insert(data)
+	        elif data > self.data:
+	            if self.rightChild is None:
+	                self.rightChild = Node(data)
+	            else:
+	                self.rightChild.insert(data)
+
+	    else:
+	        self.data = data
+
+    def lookup(self,data,parent=None):
+        """
+        Lookup a node containing data and return a node and that node's parent
+        :param data:
+        :param parent:
+        :return:
+        """
+        if data < self.data:
+            if self.leftChild is None:
+                return None, None
+            return self.leftChild.lookup(data,self)
+        elif data > self.data:
+            if self.rightChild is None:
+                return None,None
+            return self.rightChild.lookup(data,self)
+        else:
+            return self,parent
+
+
+class 
 
 
 
 
 
+class TreeNode(object):
+    __slots__ = ('leftChild','rightChild','root','key','data','parent')
+    def __init__(self,key,data):
+        self.parent = None
+        self.leftChild = None
+        self.rightChild = None
+        self.data = data
+        self.children = []
+    
+    def __getitem__(self,key):
+    	return self.left if key == 0 else self.right
+
+
+    def __setitem__(self,key,value):
+    	if key == 0:
+    		self.left = value
+    	else:
+    		self.right = value
+
+
+
+
+    @property
+    def hasLeftChild(self):
+        return self.leftChild
+
+    @property
+    def hasRightChild(self):
+        return self.rightChild
+
+    @property
+    def isLeftChild(self):
+        return self.parent and self.parent.leftChild == self
+
+    def isRightChild (self):
+        return self.parent and self.parent.rightChild
+
+    @property
+    def isRoot (self):
+        return not self.parent
+
+    def isLeaf
+
+
+   
+    def free(self):
+    	"""
+		"""
+    	self.leftChild = None
+    	self.rightChild = None
+    	self.value = None
+    	self.key = None
+    def prev_item(self,key):
+
+    	return
+
+    def succ_item(self, key):
+    	return 
+
+    def ceiling_item(self,key):
+
+    	return 
+    def floor_item(self,key):
+    	return
 
 
 
 
 
-
-class Node(object):
-    __slots__ = ('left','right','root','key','value')
-    def __init__(self,key,value):
-        self.root = True
-        self.left = None
-        self.right = None
-        self.value = value
+    @property
+    def children_count(self):
+        return len(self.children)
 
 
-
-class Graph(object):
-    def __init__(self):
-        self.nodes = list()
-
-    def findMax(self):
-
-        return
-
-    def findMin(self):
-        return
-
-
-
-    def findPrev(self):
-        return
-
-
-
-
-    def findNext(self):
-        return
-
-    def floorNode(self):
-        return
-
-    def ceilingNode(self):
-        return
-
-
-
-
-
-
-    def preorder(self,node, visitor = printwithspace):
+    def delete(self,data):
+        node,parent = self.lookup(data)
         if node is not None:
-            visitor(node.data)
-            self.preorder(node.left, visitor)
-            self.preorder(node.right, visitor)
+            children_count = node.children_count()
 
-    def inorder(self,node, visitor = printwithspace):
-        if node is not None:
-            inorder(node.left, visitor)
-            visitor(node.data)
-            inorder(node.right, visitor)
+ def isBinarySearchTree(root):
+   numbers = []
+   f = lambda node: numbers.append(node.value)
 
-    def postorder(self,node, visitor = printwithspace):
-        if node is not None:
-            postorder(node.left, visitor)
-            postorder(node.right, visitor)
-            visitor(node.data)
+   inorder(root, f)
+
+   for i in range(1, len(numbers)):
+      if numbers[i-1] > numbers[i]:
+         return False
+
+   return True
 
 
 
+def inorder(root, f):
+   ''' traverse the tree "root" in-order calling f on the
+       associated node (i.e. f knows the name of the field to
+       access). '''
+   if root.leftChild != None:
+      inorder(root.leftChild, f)
 
-class Vertex(object):
+   f(root)
 
-    def __init__(self):
-        self
+   if root.rightChild != None:
+      inorder(root.rightChild, f)
 
+def preorder(root, f):
+   f(root)
+   if root.leftChild != None:
+      preorder(root.leftChild, f)
 
+   if root.rightChild != None:
+      preorder(root.rightChild, f)
 
-    def add_edge(self):
+def postorder(root, f):
+   if root.leftChild != None:
+      postorder(root.leftChild, f)
 
+   if root.rightChild != None:
+      postorder(root.rightChild, f)
 
-
-
-    def add_weight(self, weight=0):
-
+   f(root)
