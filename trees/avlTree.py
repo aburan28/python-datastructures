@@ -149,7 +149,20 @@ class AVLTree(BinaryTree):
                 top_node.balance = max(left_height, right_height) + 1
                 top -= 1
 
+    def rebalance(self):
+        if self.key is None:
+            return
 
+        self.update_height()
+        if height(self.left) >= 2 + height(self.right):
+            if height(self.left.left) < height(self.left.right):
+                self.left.left_rotate()
+            self.right_rotate()
+        elif height(self.right) >= 2 + height(self.left):
+            if heights(self.right.right) < height(self.right.left):
+                self.right.right_rotate()
+            self.left_rotate()
+        self.parent.rebalance()
 
     def remove(self,key):
 

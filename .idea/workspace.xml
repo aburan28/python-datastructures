@@ -2,59 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6956e624-0df5-477d-8d20-33c6f1e69808" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MANIFEST.in" afterPath="$PROJECT_DIR$/MANIFEST.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstracttypes/__init__.py" afterPath="$PROJECT_DIR$/abstracttypes/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heaps/__init__.py" afterPath="$PROJECT_DIR$/heaps/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/__init__.py" afterPath="$PROJECT_DIR$/lists/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/__init__.py" afterPath="$PROJECT_DIR$/search/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trees/a-star.py" afterPath="$PROJECT_DIR$/trees/a-star.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/streams/233862775160365254.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trees/avlTree.py" afterPath="$PROJECT_DIR$/trees/avlTree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/base.py" afterPath="$PROJECT_DIR$/graphs/base.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trees/base.py" afterPath="$PROJECT_DIR$/trees/base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trees/bellman-ford-traversal.py" afterPath="$PROJECT_DIR$/trees/bellman-ford-traversal.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/bfs.py" afterPath="$PROJECT_DIR$/graphs/bfs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heaps/binaryHeap.py" afterPath="$PROJECT_DIR$/heaps/binaryHeap.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heaps/binaryMaxHeap.py" afterPath="$PROJECT_DIR$/heaps/binaryMaxHeap.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heaps/binaryMinHeap.py" afterPath="$PROJECT_DIR$/heaps/binaryMinHeap.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/binarySearch.py" afterPath="$PROJECT_DIR$/search/binarySearch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trees/binarysearchTree.py" afterPath="$PROJECT_DIR$/trees/binarysearchTree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probabilistic/bloomFilter.py" afterPath="$PROJECT_DIR$/probabilistic/bloomFilter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/dfs.py" afterPath="$PROJECT_DIR$/graphs/dfs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstracttypes/disjointSet.py" afterPath="$PROJECT_DIR$/abstracttypes/disjointSet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/djikstra.c" afterPath="$PROJECT_DIR$/graphs/djikstra.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/djikstra.h" afterPath="$PROJECT_DIR$/graphs/djikstra.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/djikstra.pyx" afterPath="$PROJECT_DIR$/graphs/djikstra.pyx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/doublylinkedList.py" afterPath="$PROJECT_DIR$/lists/doublylinkedList.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstracttypes/dqueue.py" afterPath="$PROJECT_DIR$/abstracttypes/dqueue.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crypto/fermat.py" afterPath="$PROJECT_DIR$/crypto/fermat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heaps/fibonacciHeap.py" afterPath="$PROJECT_DIR$/heaps/fibonacciHeap.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sort/heapSort.py" afterPath="$PROJECT_DIR$/sort/heapSort.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probabilistic/hyperloglog.py" afterPath="$PROJECT_DIR$/probabilistic/hyperloglog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/linkedList.py" afterPath="$PROJECT_DIR$/lists/linkedList.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sort/mergeSort.py" afterPath="$PROJECT_DIR$/sort/mergeSort.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probabilistic/millerCounter.py" afterPath="$PROJECT_DIR$/probabilistic/millerCounter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crypto/numbertheortic.py" afterPath="$PROJECT_DIR$/crypto/numbertheortic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/distributed/paxos.py" afterPath="$PROJECT_DIR$/distributed/paxos.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python-datastructures.iml" afterPath="$PROJECT_DIR$/.idea/python-datastructures.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sort/quickSort.py" afterPath="$PROJECT_DIR$/sort/quickSort.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sort/radixSort.py" afterPath="$PROJECT_DIR$/sort/radixSort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/djikstra.py" afterPath="$PROJECT_DIR$/graphs/djikstra.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trees/redblackTree.py" afterPath="$PROJECT_DIR$/trees/redblackTree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probabilistic/skipList.py" afterPath="$PROJECT_DIR$/probabilistic/skipList.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstracttypes/stack.py" afterPath="$PROJECT_DIR$/abstracttypes/stack.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probabilistic/superloglog.py" afterPath="$PROJECT_DIR$/probabilistic/superloglog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tox.ini" afterPath="$PROJECT_DIR$/tox.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python-datastructures.iws" />
@@ -91,7 +44,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="1854">
               <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1423228314821" expanded="true" signature="2151:2155" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,19 +54,11 @@
       <file leaf-file-name="base.py" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trees/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="3312">
-              <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blake.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crypto/hashing/blake.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11718">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1188" max-vertical-offset="3384">
+              <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+              <folding>
+                <marker date="1423441385153" expanded="true" signature="199:208" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +68,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="414">
               <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding />
+              <folding>
+                <marker date="1423228314833" expanded="true" signature="42:51" placeholder="..." />
+                <marker date="1423228314833" expanded="true" signature="174:180" placeholder="..." />
+                <marker date="1423228314833" expanded="true" signature="195:202" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,9 +124,14 @@
       <file leaf-file-name="binarysearchTree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trees/binarysearchTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
+            <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="648">
               <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-              <folding />
+              <folding>
+                <marker date="1423385371326" expanded="true" signature="61:69" placeholder="..." />
+                <marker date="1423385371326" expanded="true" signature="91:99" placeholder="..." />
+                <marker date="1423385371326" expanded="true" signature="118:125" placeholder="..." />
+                <marker date="1423385371326" expanded="true" signature="144:151" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,8 +139,8 @@
       <file leaf-file-name="avlTree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trees/avlTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40449437" vertical-offset="0" max-vertical-offset="2988">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.58878505" vertical-offset="468" max-vertical-offset="3222">
+              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -232,10 +188,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="949" />
-    <option name="y" value="134" />
-    <option name="width" value="961" />
-    <option name="height" value="921" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -837,11 +791,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="949" y="134" width="961" height="921" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1055" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22791712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23027718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -849,7 +803,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27889448" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27909482" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -884,7 +838,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/graphs/bfs.py</url>
-          <line>30</line>
+          <line>10</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -892,13 +846,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crypto/fermat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search/binarySearch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
@@ -1134,7 +1081,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="1854">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1423228314821" expanded="true" signature="2151:2155" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,9 +1112,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="1872">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#20#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,9 +1125,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trees/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="3312">
-          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1188" max-vertical-offset="3384">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+          <folding>
+            <marker date="1423441385153" expanded="true" signature="199:208" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,7 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,7 +1159,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
+          <folding>
+            <marker date="1423228314833" expanded="true" signature="42:51" placeholder="..." />
+            <marker date="1423228314833" expanded="true" signature="174:180" placeholder="..." />
+            <marker date="1423228314833" expanded="true" signature="195:202" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1255,14 +1207,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
           <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1423385371326" expanded="true" signature="61:69" placeholder="..." />
+            <marker date="1423385371326" expanded="true" signature="91:99" placeholder="..." />
+            <marker date="1423385371326" expanded="true" signature="118:125" placeholder="..." />
+            <marker date="1423385371326" expanded="true" signature="144:151" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trees/avlTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40449437" vertical-offset="0" max-vertical-offset="2988">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.58878505" vertical-offset="468" max-vertical-offset="3222">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
           <folding />
         </state>
       </provider>

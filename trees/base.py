@@ -3,7 +3,11 @@
 
 
 __all__ = ['TreeNode','BaseBinaryTree','BinarySearchTree']
-
+def height(node):
+  if node is None:
+    return -1 
+  else:
+    return node.height
 
 class BaseBinaryTree(object):
 
