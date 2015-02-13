@@ -12,7 +12,7 @@ __contact__ = "aburan28@gmail.com"
 
 
 
-def MergeSort(A):
+def MergeSortRecursive(A):
     # If we have only 1 element, return it
     if len(A) < 2:
         return A
@@ -55,4 +55,45 @@ def merge(array):
 
     return result
     return
+
+
+
+
+class MergeSortTest(unittest.TestCase):
+    def test_sort(self):
+        array = [random.randrange(0,1000) for _ in xrange(20000)]
+        self.assertEqual(MergeSort(array), sort(array))
+        
+        
+        
+        
+
+
+
+
+
+if __name__ == '__main__':
+    unittest.main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

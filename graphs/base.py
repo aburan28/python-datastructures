@@ -63,8 +63,8 @@ class ALDirectedGraph(object):
 class Graph:
 
     def __init__(self,edges,weights):
-      self.edges = {}
-      self.weights = {}
+        self.edges = {}
+        self.weights = {}
 
 
 class Vertex:

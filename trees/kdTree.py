@@ -5,17 +5,3 @@ __version__ = ""
 __contact__ = "aburan28@gmail.com"
 
 
-
-
-
-
-
-
-
-
-
-
-class MerkleTree(object):
-    
-    
-    def __init__(self,)
