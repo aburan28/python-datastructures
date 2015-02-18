@@ -1,5 +1,12 @@
 
 
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+
+
 dfs(graph *g, int v)
 {
 	edgenode *p;

@@ -14,11 +14,17 @@ class CuckooFilter(object):
     
     
     def insert(self):
-        
+        """
+        """
         
         
     def delete(self, x):
+        """
+        """
         
         
+    def query(self, item):
+        """
         
-    def 
+        """
+        return
